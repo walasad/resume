@@ -1,0 +1,109 @@
+---
+title: "Waleed Al-Asad"
+image: "photo.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/walasad"
+  - label: GitHub
+    url: "https://github.com/Wa-lead"
+  - label: Email
+    url: "mailto:alasad.wal@gmail.com"
+  - label: CV (PDF)
+    url: "cv.pdf"
+output:
+  postcards::solana:
+    css: styles.css
+---
+
+**Data Scientist III, Forward Deployed** at Mozn AI · Riyadh, Saudi Arabia
+
+## About
+
+I am a data scientist with three years of client-facing work in banking,
+public finance, healthcare, education and Hajj operations, building models
+that run inside the client's environment. I am the author of
+[autoLRP](https://github.com/Wa-lead/autoLRP), an open-source library for
+explaining PyTorch models.
+
+## Selected Work
+
+### In production at Mozn AI
+
+**Anti-fraud, Alrajhi Bank.** Turned card-fraud rule discovery into a
+local-search optimization, taking a weeks-long manual process to minutes;
+the deployed rules cut card fraud by about 25%. Real-time mule-cashout
+controls prevent about 3M SAR/month at 50% precision.
+
+**Budget validation, Ministry of Finance (NCGR).** Fine-tuned embedding
+models so comptrollers can cross-check allocations: 70% Hits@5, against 28%
+for off-the-shelf embeddings. Two-stage OCR for handwritten Arabic digits.
+
+**Digital Mentor, Health Specialties Commission (SCFHS).** A Bayesian model
+(PyMC, MCMC) of rank-based nominations that simulates each candidate's
+chance of nomination: F1 about 0.84, against 0.39 for the baseline. Bias
+testing and outcome KPIs endorsed by the Deputy Secretary.
+
+**Learner analytics, National eLearning Center (NeLC).** Led 30+ analytical
+and ML models for 200,000+ learners, including course recommendation and a
+learning-pathway optimizer. API response time cut from about 5 s to 150 ms.
+
+**Season analytics, Ministry of Hajj and Umrah.** Analyzed 100M+ records in
+Polars, finding fraudulent campaigns and price manipulation; the reports
+informed the Deputy Minister's enforcement decisions.
+
+### Proofs of concept
+
+**Public-services assistant, MEWA.** RAG assistant over 300+ services,
+served with vLLM on GCP; a custom tree-structured retriever scored 96%
+against 82% for an OpenAI-embedding baseline.
+
+**Medical exam question generator, SCFHS.** Grounded LLM generator for
+SMLE-standard questions at 2.5× baseline throughput; won a second-phase
+engagement.
+
+**Compliance auditing, Central Bank (SAMA).** Agentic LLM pipeline that turns
+policy documents into checks, runs them against an audited entity's data and
+reports the gaps.
+
+## Open Source
+
+[**autoLRP**](https://github.com/Wa-lead/autoLRP) (author). Layer-wise
+Relevance Propagation for any PyTorch model without a rewrite, tested on
+CNNs, ViT, LLMs, Mamba and world models. MIT-licensed, on PyPI as `autolrp`.
+
+[**needle**](https://github.com/Wa-lead/needle-pytorch-from-scratch). A
+PyTorch-like framework built from scratch: autodiff, a C++ backend, a layers
+API and a Transformer language model on top.
+
+[**SimEngine**](https://github.com/Wa-lead/SimEngine). Text-similarity
+toolkit with BERT, FastText and NER-based methods.
+
+## Experience
+
+| Role | Organization | Dates |
+|:-----|:-------------|:------|
+| Data Scientist III, Forward Deployed | Mozn AI | 2023 – present |
+| Research Assistant | SDAIA-KFUPM Joint Research Center for AI | 2022 – 2023 |
+| Machine Learning Intern | Intelmatix | 2022 |
+| Research Assistant | KFUPM | 2022 |
+
+## Skills
+
+**LLM systems:** RAG, agentic pipelines, embedding fine-tuning, LLM evaluation,
+vLLM serving
+
+**Machine learning:** PyTorch, NLP, computer vision, Bayesian modeling (PyMC),
+optimization, explainability
+
+**Engineering:** Python, SQL, SAS, Polars, Airflow, Docker, GCP
+
+**Languages:** Arabic (native), English (TOEFL iBT 104)
+
+## Education
+
+| Degree | Institution | Years |
+|:-------|:------------|:------|
+| B.Sc. Software Engineering, First Honor, GPA 3.96/4.00 | King Fahd University of Petroleum and Minerals | 2018 – 2023 |
+
+Self-study: Machine Learning Compilation (2025), Nand2Tetris (2025), CMU Deep
+Learning Systems (2024).

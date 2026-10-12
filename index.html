@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Mono', serif;}</style>
+
+    <style>
+      @media screen and (min-width: 768px) {
+        .container {
+          width: 768px;
+        }
+      }
+
+      body {
+        background-color: #f5e9dd;
+      }
+    </style>
+
+    <title>Waleed Al-Asad</title>
+
+    
+          <script src="lib/header-attrs-2.25/header-attrs.js"></script>
+    
+          <link rel="stylesheet" href="styles.css" type="text/css" />
+    
+  </head>
+  <body>
+
+    
+    <div class="container d-none d-lg-block d-xl-block">
+      <div class="row mt-5">
+        <div class="col-7 mt-5">
+          <h1>Waleed Al-Asad</h1>
+          <hr style="max-width: 200px; margin-left:0;" style="width:60%;"/>
+          <div class="my-3" id="icon-list">
+            <ul class="list-inline">
+                            <li class="list-inline-item">
+                <a href=https://www.linkedin.com/in/walasad>
+                  <button type="button" class="btn btn-outline-dark mb-2">
+                    LinkedIn
+                  </button>
+                </a>
+              </li>
+                            <li class="list-inline-item">
+                <a href=https://github.com/Wa-lead>
+                  <button type="button" class="btn btn-outline-dark mb-2">
+                    GitHub
+                  </button>
+                </a>
+              </li>
+                            <li class="list-inline-item">
+                <a href=mailto:alasad.wal@gmail.com>
+                  <button type="button" class="btn btn-outline-dark mb-2">
+                    Email
+                  </button>
+                </a>
+              </li>
+                            <li class="list-inline-item">
+                <a href=cv.pdf>
+                  <button type="button" class="btn btn-outline-dark mb-2">
+                    CV (PDF)
+                  </button>
+                </a>
+              </li>
+                          </ul>
+          </div>
+        </div>
+
+        <div class="col mr-4 mt-5">
+          <img src="photo.jpg" style="height:15rem" class="rounded float-right">
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <p><strong>Data Scientist III, Forward Deployed</strong> at
+          Mozn AI · Riyadh, Saudi Arabia</p>
+          <div id="about" class="section level2">
+          <h2>About</h2>
+          <p>I am a data scientist with three years of client-facing
+          work in banking, public finance, healthcare, education and
+          Hajj operations, building models that run inside the client’s
+          environment. I am the author of <a
+          href="https://github.com/Wa-lead/autoLRP">autoLRP</a>, an
+          open-source library for explaining PyTorch models.</p>
+          </div>
+          <div id="selected-work" class="section level2">
+          <h2>Selected Work</h2>
+          <div id="in-production-at-mozn-ai" class="section level3">
+          <h3>In production at Mozn AI</h3>
+          <p><strong>Anti-fraud, Alrajhi Bank.</strong> Turned
+          card-fraud rule discovery into a local-search optimization,
+          taking a weeks-long manual process to minutes; the deployed
+          rules cut card fraud by about 25%. Real-time mule-cashout
+          controls prevent about 3M SAR/month at 50% precision.</p>
+          <p><strong>Budget validation, Ministry of Finance
+          (NCGR).</strong> Fine-tuned embedding models so comptrollers
+          can cross-check allocations: 70% Hits@5, against 28% for
+          off-the-shelf embeddings. Two-stage OCR for handwritten Arabic
+          digits.</p>
+          <p><strong>Digital Mentor, Health Specialties Commission
+          (SCFHS).</strong> A Bayesian model (PyMC, MCMC) of rank-based
+          nominations that simulates each candidate’s chance of
+          nomination: F1 about 0.84, against 0.39 for the baseline. Bias
+          testing and outcome KPIs endorsed by the Deputy Secretary.</p>
+          <p><strong>Learner analytics, National eLearning Center
+          (NeLC).</strong> Led 30+ analytical and ML models for 200,000+
+          learners, including course recommendation and a
+          learning-pathway optimizer. API response time cut from about 5
+          s to 150 ms.</p>
+          <p><strong>Season analytics, Ministry of Hajj and
+          Umrah.</strong> Analyzed 100M+ records in Polars, finding
+          fraudulent campaigns and price manipulation; the reports
+          informed the Deputy Minister’s enforcement decisions.</p>
+          </div>
+          <div id="proofs-of-concept" class="section level3">
+          <h3>Proofs of concept</h3>
+          <p><strong>Public-services assistant, MEWA.</strong> RAG
+          assistant over 300+ services, served with vLLM on GCP; a
+          custom tree-structured retriever scored 96% against 82% for an
+          OpenAI-embedding baseline.</p>
+          <p><strong>Medical exam question generator, SCFHS.</strong>
+          Grounded LLM generator for SMLE-standard questions at 2.5×
+          baseline throughput; won a second-phase engagement.</p>
+          <p><strong>Compliance auditing, Central Bank (SAMA).</strong>
+          Agentic LLM pipeline that turns policy documents into checks,
+          runs them against an audited entity’s data and reports the
+          gaps.</p>
+          </div>
+          </div>
+          <div id="open-source" class="section level2">
+          <h2>Open Source</h2>
+          <p><a
+          href="https://github.com/Wa-lead/autoLRP"><strong>autoLRP</strong></a>
+          (author). Layer-wise Relevance Propagation for any PyTorch
+          model without a rewrite, tested on CNNs, ViT, LLMs, Mamba and
+          world models. MIT-licensed, on PyPI as
+          <code>autolrp</code>.</p>
+          <p><a
+          href="https://github.com/Wa-lead/needle-pytorch-from-scratch"><strong>needle</strong></a>.
+          A PyTorch-like framework built from scratch: autodiff, a C++
+          backend, a layers API and a Transformer language model on
+          top.</p>
+          <p><a
+          href="https://github.com/Wa-lead/SimEngine"><strong>SimEngine</strong></a>.
+          Text-similarity toolkit with BERT, FastText and NER-based
+          methods.</p>
+          </div>
+          <div id="experience" class="section level2">
+          <h2>Experience</h2>
+          <table>
+          <colgroup>
+          <col width="22%" />
+          <col width="51%" />
+          <col width="25%" />
+          </colgroup>
+          <thead>
+          <tr class="header">
+          <th align="left">Role</th>
+          <th align="left">Organization</th>
+          <th align="left">Dates</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr class="odd">
+          <td align="left">Data Scientist III, Forward Deployed</td>
+          <td align="left">Mozn AI</td>
+          <td align="left">2023 – present</td>
+          </tr>
+          <tr class="even">
+          <td align="left">Research Assistant</td>
+          <td align="left">SDAIA-KFUPM Joint Research Center for AI</td>
+          <td align="left">2022 – 2023</td>
+          </tr>
+          <tr class="odd">
+          <td align="left">Machine Learning Intern</td>
+          <td align="left">Intelmatix</td>
+          <td align="left">2022</td>
+          </tr>
+          <tr class="even">
+          <td align="left">Research Assistant</td>
+          <td align="left">KFUPM</td>
+          <td align="left">2022</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <div id="skills" class="section level2">
+          <h2>Skills</h2>
+          <p><strong>LLM systems:</strong> RAG, agentic pipelines,
+          embedding fine-tuning, LLM evaluation, vLLM serving</p>
+          <p><strong>Machine learning:</strong> PyTorch, NLP, computer
+          vision, Bayesian modeling (PyMC), optimization,
+          explainability</p>
+          <p><strong>Engineering:</strong> Python, SQL, SAS, Polars,
+          Airflow, Docker, GCP</p>
+          <p><strong>Languages:</strong> Arabic (native), English (TOEFL
+          iBT 104)</p>
+          </div>
+          <div id="education" class="section level2">
+          <h2>Education</h2>
+          <table>
+          <colgroup>
+          <col width="28%" />
+          <col width="46%" />
+          <col width="25%" />
+          </colgroup>
+          <thead>
+          <tr class="header">
+          <th align="left">Degree</th>
+          <th align="left">Institution</th>
+          <th align="left">Years</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr class="odd">
+          <td align="left">B.Sc. Software Engineering, First Honor, GPA
+          3.96/4.00</td>
+          <td align="left">King Fahd University of Petroleum and
+          Minerals</td>
+          <td align="left">2018 – 2023</td>
+          </tr>
+          </tbody>
+          </table>
+          <p>Self-study: Machine Learning Compilation (2025),
+          Nand2Tetris (2025), CMU Deep Learning Systems (2024).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src="photo.jpg" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>Waleed Al-Asad</h1>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=https://www.linkedin.com/in/walasad>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      LinkedIn
+                    </button>
+                  </a>
+                                    <a href=https://github.com/Wa-lead>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      GitHub
+                    </button>
+                  </a>
+                                    <a href=mailto:alasad.wal@gmail.com>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      Email
+                    </button>
+                  </a>
+                                    <a href=cv.pdf>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      CV (PDF)
+                    </button>
+                  </a>
+                                  </div>
+              </div>
+            </div>
+            <div class="mt-4 mb-5 mx-2">
+              <p><strong>Data Scientist III, Forward Deployed</strong>
+              at Mozn AI · Riyadh, Saudi Arabia</p>
+              <div id="about" class="section level2">
+              <h2>About</h2>
+              <p>I am a data scientist with three years of client-facing
+              work in banking, public finance, healthcare, education and
+              Hajj operations, building models that run inside the
+              client’s environment. I am the author of <a
+              href="https://github.com/Wa-lead/autoLRP">autoLRP</a>, an
+              open-source library for explaining PyTorch models.</p>
+              </div>
+              <div id="selected-work" class="section level2">
+              <h2>Selected Work</h2>
+              <div id="in-production-at-mozn-ai" class="section level3">
+              <h3>In production at Mozn AI</h3>
+              <p><strong>Anti-fraud, Alrajhi Bank.</strong> Turned
+              card-fraud rule discovery into a local-search
+              optimization, taking a weeks-long manual process to
+              minutes; the deployed rules cut card fraud by about 25%.
+              Real-time mule-cashout controls prevent about 3M SAR/month
+              at 50% precision.</p>
+              <p><strong>Budget validation, Ministry of Finance
+              (NCGR).</strong> Fine-tuned embedding models so
+              comptrollers can cross-check allocations: 70% Hits@5,
+              against 28% for off-the-shelf embeddings. Two-stage OCR
+              for handwritten Arabic digits.</p>
+              <p><strong>Digital Mentor, Health Specialties Commission
+              (SCFHS).</strong> A Bayesian model (PyMC, MCMC) of
+              rank-based nominations that simulates each candidate’s
+              chance of nomination: F1 about 0.84, against 0.39 for the
+              baseline. Bias testing and outcome KPIs endorsed by the
+              Deputy Secretary.</p>
+              <p><strong>Learner analytics, National eLearning Center
+              (NeLC).</strong> Led 30+ analytical and ML models for
+              200,000+ learners, including course recommendation and a
+              learning-pathway optimizer. API response time cut from
+              about 5 s to 150 ms.</p>
+              <p><strong>Season analytics, Ministry of Hajj and
+              Umrah.</strong> Analyzed 100M+ records in Polars, finding
+              fraudulent campaigns and price manipulation; the reports
+              informed the Deputy Minister’s enforcement decisions.</p>
+              </div>
+              <div id="proofs-of-concept" class="section level3">
+              <h3>Proofs of concept</h3>
+              <p><strong>Public-services assistant, MEWA.</strong> RAG
+              assistant over 300+ services, served with vLLM on GCP; a
+              custom tree-structured retriever scored 96% against 82%
+              for an OpenAI-embedding baseline.</p>
+              <p><strong>Medical exam question generator,
+              SCFHS.</strong> Grounded LLM generator for SMLE-standard
+              questions at 2.5× baseline throughput; won a second-phase
+              engagement.</p>
+              <p><strong>Compliance auditing, Central Bank
+              (SAMA).</strong> Agentic LLM pipeline that turns policy
+              documents into checks, runs them against an audited
+              entity’s data and reports the gaps.</p>
+              </div>
+              </div>
+              <div id="open-source" class="section level2">
+              <h2>Open Source</h2>
+              <p><a
+              href="https://github.com/Wa-lead/autoLRP"><strong>autoLRP</strong></a>
+              (author). Layer-wise Relevance Propagation for any PyTorch
+              model without a rewrite, tested on CNNs, ViT, LLMs, Mamba
+              and world models. MIT-licensed, on PyPI as
+              <code>autolrp</code>.</p>
+              <p><a
+              href="https://github.com/Wa-lead/needle-pytorch-from-scratch"><strong>needle</strong></a>.
+              A PyTorch-like framework built from scratch: autodiff, a
+              C++ backend, a layers API and a Transformer language model
+              on top.</p>
+              <p><a
+              href="https://github.com/Wa-lead/SimEngine"><strong>SimEngine</strong></a>.
+              Text-similarity toolkit with BERT, FastText and NER-based
+              methods.</p>
+              </div>
+              <div id="experience" class="section level2">
+              <h2>Experience</h2>
+              <table>
+              <colgroup>
+              <col width="22%" />
+              <col width="51%" />
+              <col width="25%" />
+              </colgroup>
+              <thead>
+              <tr class="header">
+              <th align="left">Role</th>
+              <th align="left">Organization</th>
+              <th align="left">Dates</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="odd">
+              <td align="left">Data Scientist III, Forward Deployed</td>
+              <td align="left">Mozn AI</td>
+              <td align="left">2023 – present</td>
+              </tr>
+              <tr class="even">
+              <td align="left">Research Assistant</td>
+              <td align="left">SDAIA-KFUPM Joint Research Center for
+              AI</td>
+              <td align="left">2022 – 2023</td>
+              </tr>
+              <tr class="odd">
+              <td align="left">Machine Learning Intern</td>
+              <td align="left">Intelmatix</td>
+              <td align="left">2022</td>
+              </tr>
+              <tr class="even">
+              <td align="left">Research Assistant</td>
+              <td align="left">KFUPM</td>
+              <td align="left">2022</td>
+              </tr>
+              </tbody>
+              </table>
+              </div>
+              <div id="skills" class="section level2">
+              <h2>Skills</h2>
+              <p><strong>LLM systems:</strong> RAG, agentic pipelines,
+              embedding fine-tuning, LLM evaluation, vLLM serving</p>
+              <p><strong>Machine learning:</strong> PyTorch, NLP,
+              computer vision, Bayesian modeling (PyMC), optimization,
+              explainability</p>
+              <p><strong>Engineering:</strong> Python, SQL, SAS, Polars,
+              Airflow, Docker, GCP</p>
+              <p><strong>Languages:</strong> Arabic (native), English
+              (TOEFL iBT 104)</p>
+              </div>
+              <div id="education" class="section level2">
+              <h2>Education</h2>
+              <table>
+              <colgroup>
+              <col width="28%" />
+              <col width="46%" />
+              <col width="25%" />
+              </colgroup>
+              <thead>
+              <tr class="header">
+              <th align="left">Degree</th>
+              <th align="left">Institution</th>
+              <th align="left">Years</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="odd">
+              <td align="left">B.Sc. Software Engineering, First Honor,
+              GPA 3.96/4.00</td>
+              <td align="left">King Fahd University of Petroleum and
+              Minerals</td>
+              <td align="left">2018 – 2023</td>
+              </tr>
+              </tbody>
+              </table>
+              <p>Self-study: Machine Learning Compilation (2025),
+              Nand2Tetris (2025), CMU Deep Learning Systems (2024).</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

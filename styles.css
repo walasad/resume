@@ -1,0 +1,4 @@
+table { margin-bottom: 1rem; }
+th, td { padding: 0.25rem 1.25rem 0.25rem 0; vertical-align: top; }
+h3 { font-size: 1.15rem; margin-top: 1.25rem; opacity: 0.75; }
+code { color: inherit; }
